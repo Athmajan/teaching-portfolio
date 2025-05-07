@@ -215,13 +215,21 @@ a:focus {
   position: relative;
 }
 
+.hero_detail-box {
+  background-color: #010732; /* light gray, change as needed */
+  padding: 20px ; /* optional, adds spacing inside */
+  border-radius: 10px; /* optional, rounds corners */
+}
+
+/* (top, right, bottom, and left). */
+
 .top_container::before {
   content: "";
   position: absolute;
   width: 48%;
   height: 100%;
-  background: url(../images/hero-bg.png);
-  background-size: cover;
+  background: none;
+  background-size: 400px 100px;
   background-position: right bottom;
   background-repeat: no-repeat;
   z-index: -1;
