@@ -79,23 +79,23 @@ body {
   filter: grayscale(0%);
 }
 
-#teach_sub_sec {
+/* #teach_sub_sec {
   margin-top: -20vh !important;
-}
+} */
 
-#about_btn{
+/* #about_btn{
   margin-top: -2vh !important;
-}
+} */
 
 
-#about_me_sub_sec{
+/* #about_me_sub_sec{
   margin-top: -20vh !important;
-}
+} */
 
 
-#phil_sec {
+/* #phil_sec {
   margin-top: -10vh !important;
-}
+} */
 
 
 .layout_padding {
@@ -228,7 +228,7 @@ a:focus {
 }
 
 .top_container.sub_pages::before {
-  background-size: 400px 200px;
+  background-size: 900px 100px;
   background-position: top left;
 }
 
